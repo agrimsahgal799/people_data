@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	max-height: 100%;
+	background-color: #47AFE7;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 60px 0px;
+}
+.head-section{
+	width: 100%;
+  height: auto;
+}
+.section-left, .section-right button{
+	text-transform: uppercase;	
+}
+.section-left{
+	float: left;
+	text-align: left;
+	color: #fff;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+.section-right{
+	float: right;
+	text-align: right;
+}
+.section-right button{
+	font-weight: bold;
+    background-color: #F49C63;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.people-data{
+	padding-top: 10px;
+}
+.peoples {
+  display: table;
+  width: 100%;
+  padding: 10px 0px;
+}
+.columns {
+  display: table-cell;
+}
+.people-count{
+  width: 8%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #6DCE8C;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.people-description{
+	width: 92%;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.description{
+	width: 100%;
+	font-size: 26px;
+}
+.description .title{
+	color: #323C47;
+}
+.description .name{
+	background-color: #D2E6F9;
+	border-top-right-radius: 20px;
+	padding: 10px;
+	color: #000000;
+}
+.description .location{
+	background-color: #FFFFFF;
+	border-bottom-right-radius: 20px;
+	padding: 10px;
+}
+.total-showing{
+	width: 100%;
+	padding-top: 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+.people-count,
+.description .location{
+	box-shadow: rgba(53, 131, 173, 1) 0px 5px 0px;
+}
+.arrow{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: rgba(53, 131, 173, 1);
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.arrow .up{
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 5px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+.p-hide{
+	display: none;
+}

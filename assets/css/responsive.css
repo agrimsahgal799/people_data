@@ -1,0 +1,75 @@
+/* min and max width */
+@media (max-width: 425px) and (min-width: 320px) {
+	.main{ 
+		max-width: 300px;
+	}
+}
+@media (max-width: 576px) and (min-width: 425px) {
+	.main{ 
+		max-width: 390px;
+	}
+	.head-section .section-left{
+		padding-top: 8px;
+	}
+}
+@media (min-width: 576px) {
+	.main{ 
+		max-width: 520px;
+	}
+}
+@media (min-width: 768px) {
+	.main{ 
+		max-width: 700px;
+	}
+}
+@media (min-width: 992px) { 
+	.main{ 
+		max-width: 760px;
+	}
+}
+
+/* only max width */
+@media (max-width: 768px) {
+	.people-count{
+		width: 12%;
+	}
+}
+@media (max-width: 576px){
+	.description{
+		font-size: 20px;
+	}
+	.people-count{
+		font-size: 1.5rem;
+	}
+	.section-left{
+		font-size: 1.8rem;
+	}
+	.section-right button{
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 425px){
+	.section-left,
+	.section-right{
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+	.section-right{
+		padding-top: 15px;
+	}
+	.arrow{
+		bottom: 10px;
+		right: 10px;
+	}
+	.total-showing{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.people-count{
+		width: 15%;
+	}
+}
